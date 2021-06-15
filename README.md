@@ -1,6 +1,6 @@
 # Learning Visual Attributes
 
-The aim was to design, implement and evaluate the optimal model to predict the texture and colour of an object based on the extracted features contained in the test dataset after training a machine learning model using the training dataset, which wsa provided by [Kasim Terzic](https://kt54.host.cs.st-andrews.ac.uk/) and [Lei Fang](https://sites.google.com/view/leifangresearch/).
+The aim was to design, implement and evaluate the optimal model to predict the texture and colour of an object based on the extracted features contained in the test dataset after training a machine learning model using the training dataset, which was provided by [Kasim Terzic](https://kt54.host.cs.st-andrews.ac.uk/) and [Lei Fang](https://sites.google.com/view/leifangresearch/).
 
 ![color](res/color.png)
 
