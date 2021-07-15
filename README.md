@@ -14,7 +14,7 @@ The decision was made not to train a model for multi-output classification but t
 
 Self-contained scripts were defined per classifier, baseline_lr.py, dt.py, etc. Within these scripts hyper-parameter tuning was performed using grid search to find the specific classifier's optimal parameters for each target. The parameters can be found in multi-line comments at the end of the self-contained scripts.
 
-The optimal parameters for the combination of classifier and target, a dictionary, were saved to disk using pickle and be found in the ```optimal-params``` directory. After the optimal parameters had been found, all classifier-target combination were evaluated using cross validation on the training set, performed in [eval_train_col.py](eval_train_col.py) and [eval_train_tex.py](eval_train_tex.py).
+The optimal parameters for the combination of classifier and target, a dictionary, were saved to disk using pickle and be found in the ```optimal-params``` directory. After the optimal parameters had been found, all classifier-target combinations were evaluated using cross validation on the training set, performed in [eval_train_col.py](eval_train_col.py) and [eval_train_tex.py](eval_train_tex.py).
 
 Finally, classifier-target combinations were evaluated on the validation set, performed in [eval_valid_col.py](eval_valid_col.py) and [eval_valid_tex.py](eval_valid_tex.py).
 
