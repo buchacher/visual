@@ -61,7 +61,7 @@ Install the [requirements](requirements.txt) to your virtual environment via pip
 pip install -r requirements.txt
 ```
 
-To run via ```main.py```, your command should take the following form:
+To run a script, your command should take the following form:
 ```shell script
-python3 main.py
+python3 <file_name>
 ```
