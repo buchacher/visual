@@ -22,7 +22,7 @@ The following classification algorithms were implemented using [sklearn](https:/
 - Logistic regression (baseline)
 - Decision tree
 - K-nearest neighbours
-- Multi-player perceptron
+- Multi-layer perceptron
 - Random forest
 - Stochastic gradient descent
 - Support vector
